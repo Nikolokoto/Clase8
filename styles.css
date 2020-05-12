@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+}
+
+.back-index {
+    align-items: center;
+    display: inline-block;
+    justify-content: start;
+}
+
+.logo {
+    display: inline-block;
+    width: 30px;
+}
+
+#hero {
+    align-items: center;
+    background-image: url("img/background/hero.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    justify-content: center;
+}
+
+.text-hero {
+    color: white;
+    display: block;
+    text-align: center;
+    width: 350px;
+}
+
+ .text-hero h1 {
+     font-size: 35px;
+     margin: 0;
+}
+
+.text-hero p {
+    font-size: 30px;
+    margin: 0;
+}
+
